@@ -7,6 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <Button x:Name="StartButton" Content="See Assets" HorizontalAlignment="Left" Margin="400,256,0,0" VerticalAlignment="Top" Width="378" Height="35" Click="StartButton_Click"/>
+        <TextBlock x:Name="TextLabel" HorizontalAlignment="Left" Height="109" Margin="400,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="378" TextDecorations="Underline"/>
+        <Button x:Name="EmployeeButton" Content="See Employee" HorizontalAlignment="Left" Margin="20,256,0,0" VerticalAlignment="Top" Width="375" Height="35" Click="EmployeeButton_Click"/>
+        <TextBlock x:Name="TextLabelE" HorizontalAlignment="Left" Margin="20,126,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="109" Width="375" TextDecorations="Underline"/>
+
     </Grid>
 </Window>
